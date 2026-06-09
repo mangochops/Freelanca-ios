@@ -94,6 +94,10 @@
 		047B1C542FD81FE600FDA5A6 /* Freelanca */ = {
 			isa = PBXGroup;
 			children = (
+				047B1C822FD8211400FDA5A6 /* navigation */,
+				047B1C812FD820FD00FDA5A6 /* models */,
+				047B1C802FD820F000FDA5A6 /* features */,
+				047B1C7F2FD820CD00FDA5A6 /* core */,
 				047B1C552FD81FE600FDA5A6 /* FreelancaApp.swift */,
 				047B1C572FD81FE600FDA5A6 /* ContentView.swift */,
 				047B1C592FD81FE800FDA5A6 /* Assets.xcassets */,
@@ -125,6 +129,170 @@
 				047B1C722FD81FE900FDA5A6 /* FreelancaUITestsLaunchTests.swift */,
 			);
 			path = FreelancaUITests;
+			sourceTree = "<group>";
+		};
+		047B1C7F2FD820CD00FDA5A6 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				047B1C932FD8221700FDA5A6 /* components */,
+				047B1C922FD8220100FDA5A6 /* theme */,
+				047B1C912FD821F800FDA5A6 /* storage */,
+				047B1C902FD821E600FDA5A6 /* network */,
+				047B1C8F2FD821DB00FDA5A6 /* auth */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		047B1C802FD820F000FDA5A6 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				047B1C842FD8212F00FDA5A6 /* client */,
+				047B1C832FD8212000FDA5A6 /* freelancer */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		047B1C812FD820FD00FDA5A6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		047B1C822FD8211400FDA5A6 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		047B1C832FD8212000FDA5A6 /* freelancer */ = {
+			isa = PBXGroup;
+			children = (
+				047B1C8E2FD821BF00FDA5A6 /* profile */,
+				047B1C8D2FD821AD00FDA5A6 /* notifications */,
+				047B1C8C2FD821A500FDA5A6 /* wallet */,
+				047B1C8B2FD8219A00FDA5A6 /* projects */,
+				047B1C8A2FD8219000FDA5A6 /* home */,
+			);
+			path = freelancer;
+			sourceTree = "<group>";
+		};
+		047B1C842FD8212F00FDA5A6 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				047B1C892FD8217C00FDA5A6 /* profile */,
+				047B1C882FD8216F00FDA5A6 /* notifications */,
+				047B1C872FD8216000FDA5A6 /* wallet */,
+				047B1C862FD8215300FDA5A6 /* projects */,
+				047B1C852FD8214700FDA5A6 /* home */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		047B1C852FD8214700FDA5A6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		047B1C862FD8215300FDA5A6 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		047B1C872FD8216000FDA5A6 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		047B1C882FD8216F00FDA5A6 /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = notifications;
+			sourceTree = "<group>";
+		};
+		047B1C892FD8217C00FDA5A6 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		047B1C8A2FD8219000FDA5A6 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		047B1C8B2FD8219A00FDA5A6 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		047B1C8C2FD821A500FDA5A6 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		047B1C8D2FD821AD00FDA5A6 /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = notifications;
+			sourceTree = "<group>";
+		};
+		047B1C8E2FD821BF00FDA5A6 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		047B1C8F2FD821DB00FDA5A6 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		047B1C902FD821E600FDA5A6 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		047B1C912FD821F800FDA5A6 /* storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = storage;
+			sourceTree = "<group>";
+		};
+		047B1C922FD8220100FDA5A6 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		047B1C932FD8221700FDA5A6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
