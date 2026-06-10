@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0404CA0C2FD95D1500D42960 /* FreelancerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA002FD95D1500D42960 /* FreelancerDashboardView.swift */; };
+		0404CA0D2FD95D1500D42960 /* FreelancerProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA022FD95D1500D42960 /* FreelancerProjectsView.swift */; };
+		0404CA0F2FD95D1500D42960 /* FreelancerWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA062FD95D1500D42960 /* FreelancerWalletView.swift */; };
+		0404CA102FD95D1500D42960 /* FreelancerNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA082FD95D1500D42960 /* FreelancerNotificationView.swift */; };
+		0404CA112FD95D1500D42960 /* ClientDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA0B2FD95D1500D42960 /* ClientDashboard.swift */; };
+		0404CA172FD95E6700D42960 /* ClientProjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA162FD95E6700D42960 /* ClientProjects.swift */; };
+		0404CA192FD95FD900D42960 /* ClientWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA182FD95FD900D42960 /* ClientWallet.swift */; };
+		0404CA1B2FD9604200D42960 /* ClientNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA1A2FD9604200D42960 /* ClientNotification.swift */; };
+		0404CA1D2FD9610400D42960 /* ClientProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA1C2FD9610400D42960 /* ClientProfile.swift */; };
+		0404CA1F2FD9624600D42960 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA1E2FD9624600D42960 /* TabModel.swift */; };
+		0404CA212FD9627D00D42960 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA202FD9627D00D42960 /* Navbar.swift */; };
+		0404CA232FD963E200D42960 /* RoleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA222FD963E200D42960 /* RoleModel.swift */; };
+		0404CA252FD9697B00D42960 /* BalanceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA242FD9697B00D42960 /* BalanceItem.swift */; };
+		0404CA272FD969D300D42960 /* ActionSmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA262FD969D300D42960 /* ActionSmallCard.swift */; };
+		0404CA292FD96A2100D42960 /* ActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA282FD96A2100D42960 /* ActivityRow.swift */; };
+		0404CA2D2FD96AFE00D42960 /* ProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA2C2FD96AFE00D42960 /* ProfileSection.swift */; };
+		0404CA2F2FD96B4300D42960 /* FreelancerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA2E2FD96B4300D42960 /* FreelancerProfileView.swift */; };
+		0404CA312FD96B6900D42960 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA302FD96B6900D42960 /* MenuRow.swift */; };
+		0404CA332FD96BE100D42960 /* NotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA322FD96BE100D42960 /* NotificationCard.swift */; };
+		0404CA352FD96C4300D42960 /* NotificationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA342FD96C4300D42960 /* NotificationSection.swift */; };
+		0404CA372FD977F500D42960 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404CA362FD977F500D42960 /* RoundedCorner.swift */; };
+		042CAD072FD87AC8000FA01A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD062FD87AC8000FA01A /* OnboardingView.swift */; };
+		042CAD092FD87AE6000FA01A /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD082FD87AE6000FA01A /* RoleSelectionView.swift */; };
+		042CAD0B2FD87B58000FA01A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD0A2FD87B58000FA01A /* LoginView.swift */; };
+		042CAD0D2FD87B87000FA01A /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD0C2FD87B87000FA01A /* SignupView.swift */; };
+		042CAD0F2FD87E73000FA01A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD0E2FD87E73000FA01A /* AuthManager.swift */; };
+		042CAD112FD8B15A000FA01A /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CAD102FD8B15A000FA01A /* SocialButton.swift */; };
 		047B1C562FD81FE600FDA5A6 /* FreelancaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B1C552FD81FE600FDA5A6 /* FreelancaApp.swift */; };
 		047B1C582FD81FE600FDA5A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B1C572FD81FE600FDA5A6 /* ContentView.swift */; };
 		047B1C5A2FD81FE800FDA5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B1C592FD81FE800FDA5A6 /* Assets.xcassets */; };
@@ -34,6 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0404CA002FD95D1500D42960 /* FreelancerDashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelancerDashboardView.swift; sourceTree = "<group>"; };
+		0404CA022FD95D1500D42960 /* FreelancerProjectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelancerProjectsView.swift; sourceTree = "<group>"; };
+		0404CA062FD95D1500D42960 /* FreelancerWalletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelancerWalletView.swift; sourceTree = "<group>"; };
+		0404CA082FD95D1500D42960 /* FreelancerNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelancerNotificationView.swift; sourceTree = "<group>"; };
+		0404CA0B2FD95D1500D42960 /* ClientDashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDashboard.swift; sourceTree = "<group>"; };
+		0404CA162FD95E6700D42960 /* ClientProjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProjects.swift; sourceTree = "<group>"; };
+		0404CA182FD95FD900D42960 /* ClientWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientWallet.swift; sourceTree = "<group>"; };
+		0404CA1A2FD9604200D42960 /* ClientNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientNotification.swift; sourceTree = "<group>"; };
+		0404CA1C2FD9610400D42960 /* ClientProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfile.swift; sourceTree = "<group>"; };
+		0404CA1E2FD9624600D42960 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		0404CA202FD9627D00D42960 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		0404CA222FD963E200D42960 /* RoleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleModel.swift; sourceTree = "<group>"; };
+		0404CA242FD9697B00D42960 /* BalanceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceItem.swift; sourceTree = "<group>"; };
+		0404CA262FD969D300D42960 /* ActionSmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSmallCard.swift; sourceTree = "<group>"; };
+		0404CA282FD96A2100D42960 /* ActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRow.swift; sourceTree = "<group>"; };
+		0404CA2C2FD96AFE00D42960 /* ProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSection.swift; sourceTree = "<group>"; };
+		0404CA2E2FD96B4300D42960 /* FreelancerProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelancerProfileView.swift; sourceTree = "<group>"; };
+		0404CA302FD96B6900D42960 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		0404CA322FD96BE100D42960 /* NotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCard.swift; sourceTree = "<group>"; };
+		0404CA342FD96C4300D42960 /* NotificationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSection.swift; sourceTree = "<group>"; };
+		0404CA362FD977F500D42960 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		042CAD062FD87AC8000FA01A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		042CAD082FD87AE6000FA01A /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
+		042CAD0A2FD87B58000FA01A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		042CAD0C2FD87B87000FA01A /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		042CAD0E2FD87E73000FA01A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		042CAD102FD8B15A000FA01A /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
 		047B1C522FD81FE600FDA5A6 /* Freelanca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freelanca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047B1C552FD81FE600FDA5A6 /* FreelancaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreelancaApp.swift; sourceTree = "<group>"; };
 		047B1C572FD81FE600FDA5A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +125,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0404C9FE2FD95D1500D42960 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				0404C9FF2FD95D1500D42960 /* home */,
+				0404CA012FD95D1500D42960 /* projects */,
+				0404CA032FD95D1500D42960 /* profile */,
+				0404CA052FD95D1500D42960 /* wallet */,
+				0404CA072FD95D1500D42960 /* notifications */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		0404C9FF2FD95D1500D42960 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA0B2FD95D1500D42960 /* ClientDashboard.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		0404CA012FD95D1500D42960 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA162FD95E6700D42960 /* ClientProjects.swift */,
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		0404CA032FD95D1500D42960 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA1C2FD9610400D42960 /* ClientProfile.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		0404CA052FD95D1500D42960 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA182FD95FD900D42960 /* ClientWallet.swift */,
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		0404CA072FD95D1500D42960 /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA1A2FD9604200D42960 /* ClientNotification.swift */,
+			);
+			path = notifications;
+			sourceTree = "<group>";
+		};
+		0404CA092FD95D1500D42960 /* freelancer */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA152FD95DF000D42960 /* notification */,
+				0404CA142FD95DE200D42960 /* wallet */,
+				0404CA132FD95DD800D42960 /* profile */,
+				0404CA122FD95DCE00D42960 /* projects */,
+				0404CA0A2FD95D1500D42960 /* home */,
+			);
+			path = freelancer;
+			sourceTree = "<group>";
+		};
+		0404CA0A2FD95D1500D42960 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA002FD95D1500D42960 /* FreelancerDashboardView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		0404CA122FD95DCE00D42960 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA022FD95D1500D42960 /* FreelancerProjectsView.swift */,
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		0404CA132FD95DD800D42960 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA2E2FD96B4300D42960 /* FreelancerProfileView.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		0404CA142FD95DE200D42960 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA062FD95D1500D42960 /* FreelancerWalletView.swift */,
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		0404CA152FD95DF000D42960 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				0404CA082FD95D1500D42960 /* FreelancerNotificationView.swift */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+		042CAD052FD87A05000FA01A /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				042CAD062FD87AC8000FA01A /* OnboardingView.swift */,
+				042CAD082FD87AE6000FA01A /* RoleSelectionView.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
 		047B1C492FD81FE600FDA5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -146,8 +313,9 @@
 		047B1C802FD820F000FDA5A6 /* features */ = {
 			isa = PBXGroup;
 			children = (
-				047B1C842FD8212F00FDA5A6 /* client */,
-				047B1C832FD8212000FDA5A6 /* freelancer */,
+				0404C9FE2FD95D1500D42960 /* client */,
+				0404CA092FD95D1500D42960 /* freelancer */,
+				042CAD052FD87A05000FA01A /* onboarding */,
 			);
 			path = features;
 			sourceTree = "<group>";
@@ -155,6 +323,8 @@
 		047B1C812FD820FD00FDA5A6 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				0404CA1E2FD9624600D42960 /* TabModel.swift */,
+				0404CA222FD963E200D42960 /* RoleModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -166,103 +336,12 @@
 			path = navigation;
 			sourceTree = "<group>";
 		};
-		047B1C832FD8212000FDA5A6 /* freelancer */ = {
-			isa = PBXGroup;
-			children = (
-				047B1C8E2FD821BF00FDA5A6 /* profile */,
-				047B1C8D2FD821AD00FDA5A6 /* notifications */,
-				047B1C8C2FD821A500FDA5A6 /* wallet */,
-				047B1C8B2FD8219A00FDA5A6 /* projects */,
-				047B1C8A2FD8219000FDA5A6 /* home */,
-			);
-			path = freelancer;
-			sourceTree = "<group>";
-		};
-		047B1C842FD8212F00FDA5A6 /* client */ = {
-			isa = PBXGroup;
-			children = (
-				047B1C892FD8217C00FDA5A6 /* profile */,
-				047B1C882FD8216F00FDA5A6 /* notifications */,
-				047B1C872FD8216000FDA5A6 /* wallet */,
-				047B1C862FD8215300FDA5A6 /* projects */,
-				047B1C852FD8214700FDA5A6 /* home */,
-			);
-			path = client;
-			sourceTree = "<group>";
-		};
-		047B1C852FD8214700FDA5A6 /* home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = home;
-			sourceTree = "<group>";
-		};
-		047B1C862FD8215300FDA5A6 /* projects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = projects;
-			sourceTree = "<group>";
-		};
-		047B1C872FD8216000FDA5A6 /* wallet */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = wallet;
-			sourceTree = "<group>";
-		};
-		047B1C882FD8216F00FDA5A6 /* notifications */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = notifications;
-			sourceTree = "<group>";
-		};
-		047B1C892FD8217C00FDA5A6 /* profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = profile;
-			sourceTree = "<group>";
-		};
-		047B1C8A2FD8219000FDA5A6 /* home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = home;
-			sourceTree = "<group>";
-		};
-		047B1C8B2FD8219A00FDA5A6 /* projects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = projects;
-			sourceTree = "<group>";
-		};
-		047B1C8C2FD821A500FDA5A6 /* wallet */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = wallet;
-			sourceTree = "<group>";
-		};
-		047B1C8D2FD821AD00FDA5A6 /* notifications */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = notifications;
-			sourceTree = "<group>";
-		};
-		047B1C8E2FD821BF00FDA5A6 /* profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = profile;
-			sourceTree = "<group>";
-		};
 		047B1C8F2FD821DB00FDA5A6 /* auth */ = {
 			isa = PBXGroup;
 			children = (
+				042CAD0A2FD87B58000FA01A /* LoginView.swift */,
+				042CAD0C2FD87B87000FA01A /* SignupView.swift */,
+				042CAD0E2FD87E73000FA01A /* AuthManager.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -291,6 +370,16 @@
 		047B1C932FD8221700FDA5A6 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				042CAD102FD8B15A000FA01A /* SocialButton.swift */,
+				0404CA202FD9627D00D42960 /* Navbar.swift */,
+				0404CA242FD9697B00D42960 /* BalanceItem.swift */,
+				0404CA262FD969D300D42960 /* ActionSmallCard.swift */,
+				0404CA282FD96A2100D42960 /* ActivityRow.swift */,
+				0404CA2C2FD96AFE00D42960 /* ProfileSection.swift */,
+				0404CA302FD96B6900D42960 /* MenuRow.swift */,
+				0404CA322FD96BE100D42960 /* NotificationCard.swift */,
+				0404CA342FD96C4300D42960 /* NotificationSection.swift */,
+				0404CA362FD977F500D42960 /* RoundedCorner.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -425,7 +514,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042CAD0D2FD87B87000FA01A /* SignupView.swift in Sources */,
+				042CAD0F2FD87E73000FA01A /* AuthManager.swift in Sources */,
+				042CAD072FD87AC8000FA01A /* OnboardingView.swift in Sources */,
+				0404CA112FD95D1500D42960 /* ClientDashboard.swift in Sources */,
+				0404CA172FD95E6700D42960 /* ClientProjects.swift in Sources */,
+				0404CA2D2FD96AFE00D42960 /* ProfileSection.swift in Sources */,
+				0404CA192FD95FD900D42960 /* ClientWallet.swift in Sources */,
+				0404CA2F2FD96B4300D42960 /* FreelancerProfileView.swift in Sources */,
+				0404CA352FD96C4300D42960 /* NotificationSection.swift in Sources */,
+				042CAD092FD87AE6000FA01A /* RoleSelectionView.swift in Sources */,
+				0404CA0C2FD95D1500D42960 /* FreelancerDashboardView.swift in Sources */,
+				0404CA332FD96BE100D42960 /* NotificationCard.swift in Sources */,
+				0404CA232FD963E200D42960 /* RoleModel.swift in Sources */,
+				0404CA0D2FD95D1500D42960 /* FreelancerProjectsView.swift in Sources */,
+				042CAD112FD8B15A000FA01A /* SocialButton.swift in Sources */,
+				0404CA252FD9697B00D42960 /* BalanceItem.swift in Sources */,
 				047B1C582FD81FE600FDA5A6 /* ContentView.swift in Sources */,
+				0404CA1F2FD9624600D42960 /* TabModel.swift in Sources */,
+				0404CA102FD95D1500D42960 /* FreelancerNotificationView.swift in Sources */,
+				0404CA212FD9627D00D42960 /* Navbar.swift in Sources */,
+				0404CA1D2FD9610400D42960 /* ClientProfile.swift in Sources */,
+				0404CA312FD96B6900D42960 /* MenuRow.swift in Sources */,
+				0404CA292FD96A2100D42960 /* ActivityRow.swift in Sources */,
+				0404CA0F2FD95D1500D42960 /* FreelancerWalletView.swift in Sources */,
+				0404CA272FD969D300D42960 /* ActionSmallCard.swift in Sources */,
+				0404CA1B2FD9604200D42960 /* ClientNotification.swift in Sources */,
+				042CAD0B2FD87B58000FA01A /* LoginView.swift in Sources */,
+				0404CA372FD977F500D42960 /* RoundedCorner.swift in Sources */,
 				047B1C562FD81FE600FDA5A6 /* FreelancaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
