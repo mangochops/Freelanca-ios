@@ -26,7 +26,7 @@ struct ClientWalletView: View {
                                 .foregroundColor(Color(hex: "#0A1B2F"))
                         }
                         Spacer()
-                        Image("user_avatar") // Replace with actual asset
+                        Image(systemName:"person.fill") // Replace with actual asset
                             .resizable()
                             .frame(width: 40, height: 40)
                             .clipShape(Circle())
@@ -37,7 +37,7 @@ struct ClientWalletView: View {
                     .background(Color.white)
                     
                     ScrollView(showsIndicators: false) {
-                        VStack(spacing: 32) {
+                        VStack(spacing: 12) {
                             
                             // Available Balance Card (Dark Theme)
                             VStack(alignment: .leading, spacing: 24) {
@@ -46,14 +46,14 @@ struct ClientWalletView: View {
                                         .font(.system(size: 11, weight: .bold))
                                         .foregroundColor(Color(hex: "#D1FF3F").opacity(0.8))
                                     
-                                    Text("$12,450.00")
+                                    Text("$450.00")
                                         .font(.system(size: 44, weight: .bold))
                                         .foregroundColor(.white)
                                 }
                                 
-                                HStack(spacing: 12) {
+                                HStack(spacing: 20) {
                                     Button(action: {}) {
-                                        Text("Withdraw")
+                                        Text("Pay")
                                             .font(.system(size: 16, weight: .bold))
                                             .foregroundColor(Color(hex: "#0A1B2F"))
                                             .frame(maxWidth: .infinity)
@@ -126,15 +126,15 @@ struct ClientWalletView: View {
                                 ScrollView(.horizontal, showsIndicators: false) {
                                     HStack(spacing: 12) {
                                         FilterPill(title: "All History", isActive: false)
-                                        FilterPill(title: "Payments Received", isActive: true)
-                                        FilterPill(title: "Withdrawals", isActive: false)
+                                        FilterPill(title: "Paid", isActive: true)
+                                        FilterPill(title: "In progress", isActive: false)
                                     }
                                 }
                                 
                                 // Transaction Rows
                                 VStack(spacing: 12) {
                                     RBACTransactionRow(
-                                        title: "Payment from TechStream Inc.",
+                                        title: "Payment to TechStream Inc.",
                                         subtitle: "Project: UI/UX Audit • Aug 24",
                                         amount: "+$2,400.00",
                                         status: "Completed",
@@ -143,9 +143,9 @@ struct ClientWalletView: View {
                                     )
                                     
                                     RBACTransactionRow(
-                                        title: "Withdrawal to Bank",
+                                        title: "Top up",
                                         subtitle: "Transfer • Aug 22",
-                                        amount: "-$1,500.00",
+                                        amount: "+$1,500.00",
                                         status: "Processing",
                                         icon: "creditcard.fill",
                                         iconBg: Color(hex: "#EFF4FF")
@@ -170,7 +170,7 @@ struct ClientWalletView: View {
                                         Text("Financial Insights")
                                             .font(.custom("LibreCaslonText-Bold", size: 20))
                                             .foregroundColor(Color(hex: "#0A1B2F"))
-                                        Text("Your earnings are 15% higher than last quarter. Keep it up!")
+                                        Text("Your settlements are 15% higher than last quarter. Keep it up!")
                                             .font(.system(size: 14))
                                             .foregroundColor(Color(hex: "#0A1B2F").opacity(0.6))
                                             .lineSpacing(4)

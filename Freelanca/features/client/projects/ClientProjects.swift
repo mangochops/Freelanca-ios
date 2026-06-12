@@ -57,7 +57,7 @@ struct ClientProjectsView: View {
                                     HStack(spacing: 8) {
                                         Image(systemName: "magnifyingglass")
                                             .font(.system(size: 16, weight: .bold))
-                                        Text("Browse\nGigs")
+                                        Text("Search")
                                             .font(.system(size: 12, weight: .bold))
                                             .multilineTextAlignment(.leading)
                                     }

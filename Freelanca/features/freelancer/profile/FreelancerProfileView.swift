@@ -191,5 +191,5 @@ struct StatCard: View {
 
 
 #Preview {
-    ClientProfileView()
+    FreelancerProfileView()
 }

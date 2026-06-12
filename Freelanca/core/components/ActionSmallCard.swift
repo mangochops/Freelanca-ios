@@ -20,7 +20,7 @@ struct ActionSmallCard: View {
             Spacer()
         }
         .foregroundColor(Color(hex: "#0A1B2F"))
-        .padding(20)
+        .padding(18)
         .background(Color(hex: "#EFF4FF"))
         .cornerRadius(16)
     }

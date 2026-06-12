@@ -24,35 +24,34 @@ struct RoleSelectionView: View {
             Spacer()
             // Footer Action
             VStack(spacing: 24) {
-               
-                Button(action: {  }) {
-                    HStack {
-                        Text("CONTINUE")
-                            .font(.system(size: 16, weight: .bold))
-                        Image(systemName: "arrow.right") }
-                            .foregroundColor(Color(hex: "#0A1B2F"))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 18)
-                            .background(session.role != nil ? Color(hex: "#D1FF3F") : Color(hex: "#D1FF3F")
-                            .opacity(0.3))
-                            .cornerRadius(16)
-                            .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 5)
-                }
-                .disabled(session.role == nil)
-                HStack {
-                    Text("Already have an account?")
-                        .foregroundColor(Color(hex: "#0A1B2F").opacity(0.6))
-                    
-                    NavigationLink(destination: LoginView()) {
-                        Button("Log In") {}
-                            .font(.system(size: 14, weight: .bold))
-                            .foregroundColor(Color(hex: "#0A1B2F"))
-                    }
-                }
-                .padding(.horizontal, 24) .padding(.bottom, 40)
-            }
-            .background(Color(hex: "#F9F9FF")
-            .ignoresSafeArea())
+                                // Navigation to Registration
+                                NavigationLink(destination: SignupView()) {
+                                    HStack {
+                                        Text("CONTINUE")
+                                            .font(.system(size: 16, weight: .bold))
+                                        Image(systemName: "arrow.right")
+                                    }
+                                    .foregroundColor(Color(hex: "#0A1B2F"))
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 18)
+                                    .background(session.role != nil ? Color(hex: "#D1FF3F") : Color(hex: "#D1FF3F").opacity(0.3))
+                                    .cornerRadius(16)
+                                    .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 5)
+                                }
+                                .disabled(session.role == nil)
+                                .padding(.horizontal, 24)
+                                
+                                HStack {
+                                    Text("Already have an account?")
+                                        .foregroundColor(Color(hex: "#0A1B2F").opacity(0.6))
+                                    
+                                    NavigationLink("Log In", destination: LoginView())
+                                        .font(.system(size: 14, weight: .bold))
+                                        .foregroundColor(Color(hex: "#0A1B2F"))
+                                }
+                            }
+                            .padding(.bottom, 40)
+                            .background(Color(hex: "#F9F9FF").ignoresSafeArea())
         }
     }
     

@@ -22,25 +22,36 @@ struct SignupView: View {
                 
                 VStack(spacing: 0) {
                     // Header Navigation
-                    HStack {
-                        Button(action: {
-                            // Back action
-                        }) {
-                            Image(systemName: "arrow.left")
-                                .font(.system(size: 20, weight: .semibold))
-                                .foregroundColor(Color(hex: "#0A1B2F"))
-                        }
-                        
-                        Text("Freelanca")
-                            .font(.custom("LibreCaslonText-Bold", size: 24))
-                            .foregroundColor(Color(hex: "#0A1B2F"))
-                            .frame(maxWidth: .infinity)
-                        
-                        // Spacer for centering
-                        Image(systemName: "arrow.left").opacity(0)
-                    }
-                    .padding(.horizontal, 24)
-                    .padding(.top, 12)
+//                    HStack {
+//                        Button(action: {
+//                            // Back action
+//                        }) {
+//                            Image(systemName: "arrow.left")
+//                                .font(.system(size: 20, weight: .semibold))
+//                                .foregroundColor(Color(hex: "#0A1B2F"))
+//                        }
+//                        
+//                        Text("Freelanca")
+//                            .font(.custom("LibreCaslonText-Bold", size: 24))
+//                            .foregroundColor(Color(hex: "#0A1B2F"))
+//                            .frame(maxWidth: .infinity)
+//                        
+//                        // Spacer for centering
+//                        Image(systemName: "arrow.left").opacity(0)
+//                    }
+//                    .padding(.horizontal, 24)
+//                    .padding(.top, 12)
+                    
+//                    ZStack {
+//                        RoundedRectangle(cornerRadius: 24)
+//                            .fill(Color(hex: "#D1FF3F"))
+//                            .frame(width: 100, height: 100)
+//                        
+//                        Text("freelanca")
+//                            .font(.custom("LibreCaslonText-Bold", size: 16))
+//                            .foregroundColor(Color(hex: "#0A1B2F"))
+//                    }
+                    
                     
                     ScrollView(showsIndicators: false) {
                         VStack(spacing: 32) {
@@ -56,21 +67,9 @@ struct SignupView: View {
                             }
                             .padding(.top, 40)
                             
-                            // Social Logins
-                            VStack(spacing: 16) {
-                                socialButton(title: "CONTINUE WITH GOOGLE", icon: "g.circle.fill", isDark: false)
-                                socialButton(title: "CONTINUE WITH APPLE", icon: "apple.logo", isDark: true)
-                            }
                             
-                            // Divider
-                            HStack {
-                                VStack { Divider().background(Color(hex: "#0A1B2F").opacity(0.1)) }
-                                Text("OR CONTINUE WITH EMAIL")
-                                    .font(.system(size: 10, weight: .bold))
-                                    .foregroundColor(Color(hex: "#0A1B2F").opacity(0.4))
-                                    .padding(.horizontal, 8)
-                                VStack { Divider().background(Color(hex: "#0A1B2F").opacity(0.1)) }
-                            }
+                            
+                            
                             
                             // Form Fields
                             VStack(spacing: 24) {
@@ -103,7 +102,30 @@ struct SignupView: View {
                                             .stroke(Color(hex: "#0A1B2F").opacity(0.1), lineWidth: 1)
                                     )
                                 }
+                                
+                                // Divider
+                                HStack {
+                                    VStack { Divider().background(Color(hex: "#0A1B2F").opacity(0.1)) }
+                                    Text("OR")
+                                        .font(.system(size: 10, weight: .bold))
+                                        .foregroundColor(Color(hex: "#0A1B2F").opacity(0.4))
+                                        .padding(.horizontal, 8)
+                                    VStack { Divider().background(Color(hex: "#0A1B2F").opacity(0.1)) }
+                                }
+                                
+                                // Social Logins
+                                
+                                HStack(spacing: 16) {
+                                    SocialButton(title: "GOOGLE", icon: "g.circle.fill")
+                                    SocialButton(title: "APPLE", icon: "apple.logo")
+                                }
+                                
                             }
+                            .padding(24)
+                            .background(Color.white)
+                            .cornerRadius(32)
+                            .shadow(color: Color.black.opacity(0.05), radius: 20, x: 0, y: 10)
+                            .padding(.horizontal, 0)
                             
                             // Terms and Conditions
                             HStack(alignment: .top, spacing: 12) {

@@ -79,8 +79,8 @@ struct ClientNotificationsView: View {
                                 NotificationSection(title: "TODAY") {
                                     NotificationCard(
                                         icon: "creditcard.fill",
-                                        title: "Payment Received",
-                                        message: "Successfully received $2,450.00 for 'Fintech Dashboard UI' milestone. Funds are now available in your wallet.",
+                                        title: "Payment Sent",
+                                        message: "Successfully sent $2,450.00 for 'Fintech Dashboard UI' milestone. Funds are now available in your wallet.",
                                         time: "2h ago",
                                         isNew: true,
                                         actionTitle: "View Wallet"
@@ -89,7 +89,7 @@ struct ClientNotificationsView: View {
                                     NotificationCard(
                                         icon: "checkmark.circle.fill",
                                         title: "Milestone Approved",
-                                        message: "Acme Corp has approved Milestone 2: 'High-Fidelity Prototypes'. Your payment is being processed.",
+                                        message: "You approved Milestone 2: 'High-Fidelity Prototypes'. Your payment is being processed.",
                                         time: "5h ago",
                                         isNew: true
                                     )
@@ -99,7 +99,7 @@ struct ClientNotificationsView: View {
                                     NotificationCard(
                                         icon: "briefcase.fill",
                                         title: "New Project Invitation",
-                                        message: "Global Dynamics invited you to bid on 'Supply Chain Optimization Platform'. Budget: $15k - $25k.",
+                                        message: "John Doe received your invite for 'Supply Chain Optimization Platform'. Budget: $15k - $25k.",
                                         time: "1d ago",
                                         actionTitle: "View Details"
                                     )
@@ -126,18 +126,6 @@ struct ClientNotificationsView: View {
         }
     }
 }
-
-// MARK: - Subviews
-
-
-
-
-
-
-
-
-
-
 
 
 

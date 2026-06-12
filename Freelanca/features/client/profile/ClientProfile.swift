@@ -45,13 +45,14 @@ struct ClientProfileView: View {
                                 ZStack(alignment: .bottomTrailing) {
                                     // Main Avatar Image
                                     ZStack {
-                                        Circle()
-                                            .fill(Color(hex: "#EFF4FF"))
-                                            .frame(width: 120, height: 120)
+//                                        Circle()
+//                                            .fill(Color(hex: "#EFF4FF"))
+//                                            .frame(width: 120, height: 120)
                                         Image(systemName: "person.fill")
                                             .resizable()
                                             .scaledToFit()
                                             .padding(30)
+                                            .frame(width: 120, height: 120)
                                             .foregroundColor(Color(hex: "#0A1B2F").opacity(0.2))
                                     }
                                     .clipShape(Circle())

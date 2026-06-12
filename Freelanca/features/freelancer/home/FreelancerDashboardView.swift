@@ -48,7 +48,7 @@ struct FreelancerDashboardView: View {
                                     .foregroundColor(Color(hex: "#D1FF3F"))
                             }
                             
-                            HStack(spacing: 32) {
+                            HStack(spacing: 16) {
                                 BalanceItem(label: "IN ESCROW", amount: "$8,200.00")
                                 BalanceItem(label: "AVAILABLE", amount: "$4,280.00")
                                 Spacer()

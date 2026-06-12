@@ -48,9 +48,10 @@ struct ClientDashboard: View {
                                     Text("$12,480.00")
                                         .font(.system(size: 38, weight: .bold))
                                         .foregroundColor(Color(hex: "#D1FF3F"))
+                                    
                                 }
                                 
-                                HStack(spacing: 32) {
+                                HStack(spacing: 16) {
                                     BalanceItem(label: "IN ESCROW", amount: "$8,200.00")
                                     BalanceItem(label: "AVAILABLE", amount: "$4,280.00")
                                     Spacer()
@@ -67,7 +68,7 @@ struct ClientDashboard: View {
                             .padding(.top, 24)
                             
                             // Quick Actions (RBAC: Client Context)
-                            VStack(alignment: .leading, spacing: 16) {
+                            VStack(alignment: .leading) {
                                 Text("Quick Actions")
                                     .font(.custom("LibreCaslonText-Bold", size: 20))
                                     .foregroundColor(Color(hex: "#0A1B2F"))
@@ -83,14 +84,14 @@ struct ClientDashboard: View {
                                         }
                                         .foregroundColor(Color(hex: "#D1FF3F"))
                                         .frame(maxWidth: .infinity, alignment: .leading)
-                                        .padding(20)
+                                        .padding(18)
                                         .background(Color(hex: "#1A1C1E"))
                                         .cornerRadius(20)
                                     }
                                     
                                     VStack(spacing: 12) {
-                                        ActionSmallCard(icon: "university-bank", title: "Deposit Funds")
-                                        ActionSmallCard(icon: "checkmark.shield", title: "Release Payment")
+                                        ActionSmallCard(icon: "banknote", title: "Deposit")
+                                        ActionSmallCard(icon: "checkmark.shield", title: "Pay")
                                     }
                                     .frame(maxWidth: .infinity)
                                 }

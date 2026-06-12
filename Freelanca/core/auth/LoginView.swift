@@ -21,19 +21,19 @@ struct LoginView: View {
                     Spacer()
                     
                     // Logo Section
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 24)
-                            .fill(Color(hex: "#D1FF3F"))
-                            .frame(width: 100, height: 100)
-                        
-                        Text("freelanca")
-                            .font(.custom("LibreCaslonText-Bold", size: 16))
-                            .foregroundColor(Color(hex: "#0A1B2F"))
-                    }
-                    .padding(.bottom, 32)
+//                    ZStack {
+//                        RoundedRectangle(cornerRadius: 24)
+//                            .fill(Color(hex: "#D1FF3F"))
+//                            .frame(width: 100, height: 100)
+//                        
+//                        Text("freelanca")
+//                            .font(.custom("LibreCaslonText-Bold", size: 16))
+//                            .foregroundColor(Color(hex: "#0A1B2F"))
+//                    }
+//                    .padding(.bottom, 8)
                     
                     // Heading
-                    VStack(spacing: 12) {
+                    VStack(spacing: 8) {
                         Text("Welcome back")
                             .font(.custom("LibreCaslonText-Bold", size: 36))
                             .foregroundColor(Color(hex: "#0A1B2F"))
@@ -42,7 +42,7 @@ struct LoginView: View {
                             .font(.system(size: 16))
                             .foregroundColor(Color(hex: "#0A1B2F").opacity(0.6))
                     }
-                    .padding(.bottom, 40)
+                    .padding(.bottom, 20)
                     
                     // Login Card
                     VStack(spacing: 24) {
@@ -55,8 +55,10 @@ struct LoginView: View {
                                 
                                 HStack {
                                     Image(systemName: "envelope")
-                                        .foregroundColor(Color(hex: "#0A1B2F").opacity(0.4))
+                                        .foregroundColor(Color(hex: "#0A1B2F")
+                                            .opacity(0.4))
                                     TextField("name@company.com", text: $email)
+                                        .opacity(0.8)
                                 }
                                 .padding()
                                 .background(Color(hex: "#EFF4FF"))
@@ -124,7 +126,7 @@ struct LoginView: View {
                         // Social Buttons
                         HStack(spacing: 16) {
                             SocialButton(title: "GOOGLE", icon: "g.circle.fill")
-                            SocialButton(title: "GITHUB", icon: "terminal.fill")
+                            SocialButton(title: "APPLE", icon: "apple.logo")
                         }
                     }
                     .padding(24)

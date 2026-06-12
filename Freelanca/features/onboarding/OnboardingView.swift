@@ -21,13 +21,13 @@ struct OnboardingView: View {
         OnboardingData(
             title: "Milestones Made Simple",
             description: "Break your projects into manageable steps and track progress in real-time.",
-            image: "smart_contracts_illustration", // Replace with your asset name
+            image: "chart.bar.doc.horizontal.fill", // Replace with your asset name
             badgeText: nil
         ),
         OnboardingData(
             title: "Your Wallet, Simplified",
             description: "Manage your earnings, withdrawals, and escrow balance all in one place.",
-            image: "wallet_simplified_illustration", // Replace with your asset name
+            image: "banknote.fill", // Replace with your asset name
             badgeText: nil
         )
     ]

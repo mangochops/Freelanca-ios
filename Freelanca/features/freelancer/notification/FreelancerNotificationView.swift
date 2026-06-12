@@ -114,14 +114,14 @@ struct FreelancerNotificationView: View {
                                     )
                                 }
                                 
-                                NotificationSection(title: "EARLIER THIS WEEK") {
-                                    NotificationCard(
-                                        icon: "person.crop.circle.badge.questionmark",
-                                        title: "Profile Viewed",
-                                        message: "Your profile was viewed by 12 potential clients this week. Optimization tip: Update your portfolio projects.",
-                                        time: "3d ago"
-                                    )
-                                }
+//                                NotificationSection(title: "EARLIER THIS WEEK") {
+//                                    NotificationCard(
+//                                        icon: "person.crop.circle.badge.questionmark",
+//                                        title: "Profile Viewed",
+//                                        message: "Your profile was viewed by 12 potential clients this week. Optimization tip: Update your portfolio projects.",
+//                                        time: "3d ago"
+//                                    )
+//                                }
                             }
                             .padding(.horizontal, 24)
                             .padding(.bottom, 100)

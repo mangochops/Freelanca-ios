@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct FreelancaApp: App {
     @StateObject var authState = AuthManager()
+    @StateObject var session = UserSession()
+    
     var body: some Scene {
             WindowGroup {
                 Group {
@@ -20,6 +22,7 @@ struct FreelancaApp: App {
                     }
                 }
                 .environmentObject(authState) // Injects the manager into the environment
+                .environmentObject(session)
             }
         }
 }
